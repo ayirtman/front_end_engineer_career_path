@@ -1,4 +1,8 @@
 <style media="screen">
+  button{
+      cursor: pointer;
+  }
+
   .subscribe-button {
     background-color: rgb(200, 0, 0);
     color: white;
@@ -6,9 +10,17 @@
     height: 36px;
     width: 110px;
     border-radius: 2px;
-    cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
   }
+
+    .subscribe-button:hover {
+      opacity: 0.6;
+    }
+
+    .subscribe-button:active {
+      opacity: 0.3;
+    }
 
   .join-button {
     background-color: white;
@@ -19,25 +31,176 @@
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
   }
 
-  .tweet-button{
+    .join-button:hover {
+      background-color: rgb(0, 109, 255);
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.7;
+    }
+
+  .tweet-button {
     background-color: dodgerblue;
     color: white;
     border: none;
-    height:36px;
+    height: 36px;
     width: 70px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
-    cursor: pointer;
+    transition: box-shadow 0.15s;
   }
+
+    .tweet-button:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+    }
+
+    .tweet-button:active {
+      opacity: 0.7;
+    }
+
+    .uber-button{
+        height: 36px;
+        width: 120px;
+        border: none;
+        background-color: black;
+        color: white;
+        transition: background-color 0.15s;
+    }
+
+    .uber-button:hover {
+      background-color: rgba(32, 32, 32, 0.9);
+    }
+
+  .amazon-button {
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFD814;
+    transition: background-color 0.15s;
+  }
+
+  .amazon-button:hover {
+    background-color: rgb(247, 203, 0);
+  }
+
+  .github {
+    background-color: #24292F;
+    width: 80px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .github-button {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: #24292F;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 11px;
+    transition: opacity 0.2s;
+  }
+
+  .github-button:hover {
+      opacity: 0.7;
+  }
+
+  .bootsrap-button-first {
+    background-color: #64419C;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+  }
+
+  .bootsrap-button-first:hover {
+    background-color: #52357A;
+  }
+
+  .bootsrap-button-second {
+    border: 1px solid #535A61;
+    height: 36px;
+    width: 90px;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.15s,
+        color 0.15s;
+  }
+
+    .bootsrap-button-second:hover {
+      background-color: #535A61;
+      color: white;
+    }
+
+  .linkedin-button-first {
+    background-color: #0C54AF;
+    width: 200px;
+    height: 36px;
+    color: #EDEBED;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+  }
+
+  .linkedin-button-first:hover {
+    background-color: #033067;
+  }
+
+  .linkedin-button-second {
+    background-color: #EDEBED;
+    color: #0C54AF;
+    border: 1px solid #0C54AF;
+    height: 36px;
+    width: 70px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.2s, font-weight 0.2s, border 0.2s;
+  }
+
+    .linkedin-button-second:hover {
+      background-color: #DAD8DA;
+      border: 2px solid #0C54AF;
+    }
 </style>
 
+<h2>Youtube button</h2>
 <button class="subscribe-button">SUBSCRIBE</button>
 
+<h2>Join button</h2>
 <button class="join-button">JOIN</button>
 
+<h2>Twitter button</h2>
 <button class="tweet-button">Tweet</button>
+
+<h2>Uber button</h2>
+<button class="uber-button">Request now</button>
+
+<h2>Amazon button</h2>
+<button class="amazon-button">Add to Cart</button>
+
+
+<h2>Github button</h2>
+<div class="github">
+  <button class="github-button">Sign Up</button>
+</div>
+
+<h2>Bootstrap button</h2>
+<button class="bootsrap-button-first">Get started</button>
+<button class="bootsrap-button-second">Download</button>
+
+
+
+<h2>LinkedIn button</h2>
+<button class="linkedin-button-first">Apply on company website</button>
+<button class="linkedin-button-second">Save</button>
