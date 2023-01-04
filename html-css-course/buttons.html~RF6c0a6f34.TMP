@@ -1,0 +1,10 @@
+<style media="screen">
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 110px;
+  }
+</style>
+<button type="button" name="button">SUBSCRIBE</button>
