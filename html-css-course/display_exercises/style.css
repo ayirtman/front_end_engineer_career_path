@@ -1,0 +1,128 @@
+.exercises{
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.solution{
+  font-size: 18px;
+  color: red;
+}
+
+.questions {
+  margin-left: 20px;
+  border-bottom: 1px dashed rgb(96,93,96);
+  padding-bottom: 20px;
+}
+
+.q1name, .q1email {
+  display: block;
+  width: 100px;
+  margin: 5px 0px;
+}
+
+.q2paragraph{
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-logo {
+  width: 292px;
+  margin-left: 40%;
+}
+
+.google-search {
+  display: block;
+  margin-left: 35%;
+  font-size: 15px;
+  width: 500px;
+  height: 35px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(214,214,214);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.q4name, .q4surname {
+  width: 120px;
+  height: 30px;
+  margin: 0px 2px 8px 0px;
+  border-radius: 6px;
+  border: 1px solid #C8C8C8;
+  padding-left:10px;
+}
+
+.q4email {
+  width: 246px;
+  height: 30px;
+  margin-bottom: 8px;
+  display: block;
+  border: 1px solid #C8C8C8;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.q4signup {
+  width: 246px;
+  background-color: #3A75EA;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  font-weight: 300;
+  transition: background-color 0.3s;
+}
+
+.q4signup:hover {
+  background-color: #6788cb;
+}
+
+.uber {
+  font-size: 30px;
+  font-family:Arial;
+}
+
+.q5pickup, 
+.q5destination,
+.request-button,
+.schedule-button {
+  border: none;
+}
+
+.q5pickup, .q5destination {
+  display: block;
+  margin-bottom: 6px;
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: #F1EFF1;
+}
+
+.request-button, .schedule-button{
+  margin: 15px 15px 0px 0px;
+  padding: 10px 15px;
+}
+
+.request-button {
+  background-color: #010001;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+
+.request-button:hover {
+  background-color: white;
+  color: #010001;
+}
+
+.schedule-button {
+  background-color: #DAD9DA;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.schedule-button:hover {
+  background-color: #b1b1b1;
+}
